@@ -22,4 +22,4 @@
 
 6) At host computer (Windows) do call data test from Web Browser with URL : http://192.168.50.152 The pictures below show the result.
    
-
+   ![pic5](https://user-images.githubusercontent.com/51110675/184585292-641f41a1-126b-48aa-8269-00b8699f48b3.png)
