@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  my_web:
+    container_name: my_web
+    build:
+      context: ./App_A/
+      dockerfile: Dockerfile_App_A
+    depends_on: 
+      - my_db
+    volumes:
+      - ./App_A/:/var/www/html/
+    ports:
+      - "80:80"
+    restart: always
+    networks:
+      Front-Net:
+      Back-Net:
+        ipv4_address: 10.1.1.11
+          
+  my_db:
+    container_name: my_db
+    image: mysql
+    volumes:
+      - ./App_A/mysql-backup/:/docker-entrypoint-initdb.d/
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: sm@rt 
+      MYSQL_DATABASE: 0002_Lab_Exam
+      MYSQL_USER: peer
+      MYSQL_PASSWORD: abCd@1234
+    ports:
+      - "3306:3306"
+    networks:
+      Back-Net:
+        ipv4_address: 10.1.1.22  
+
+networks:
+  Front-Net:
+  Back-Net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: "10.1.1.0/24"       
