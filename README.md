@@ -12,15 +12,15 @@
   
    ![pic3](https://user-images.githubusercontent.com/51110675/184584688-1231adac-e492-4db6-b529-006fe1a9af95.png)
    
-5) To check the result, use command : curl 127.0.0.1 
+4) To check the result, use command : curl 127.0.0.1 
 
-   ![pic5](https://user-images.githubusercontent.com/51110675/183124118-aa6ede61-9df0-48f0-9c87-4d5d9d790f7c.jpg)
+   ![pic4](https://user-images.githubusercontent.com/51110675/184584912-249bb6fb-5a50-4f89-bf50-a95fd483d244.png)
 
-6) Check IP address of Ubuntu by command IP address. As shown in picture, the IP address is 192.168.50.152 
+5) Check IP address of Ubuntu by command IP address. As shown in picture, the IP address is 192.168.50.152 
    
    ![pic6](https://user-images.githubusercontent.com/51110675/183125245-3f77eaf9-e943-4fde-8e93-0a3744d9a53b.jpg)
 
-7) At host computer (Windows) do call data test from Web Browser with URL : http://192.168.50.152 The pictures below show the result.
+6) At host computer (Windows) do call data test from Web Browser with URL : http://192.168.50.152 The pictures below show the result.
    
    ![pic7](https://user-images.githubusercontent.com/51110675/183126181-d5b96c05-4868-47a5-a2f7-22db4d7d0210.jpg)
    
