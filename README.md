@@ -10,7 +10,7 @@
 3) To run Docker compose command, type command : sudo docker compose up -d, once the command run to finishes the compose, 
    the terminal program will be shown as below :
   
-   
+   ![pic3](https://user-images.githubusercontent.com/51110675/184584688-1231adac-e492-4db6-b529-006fe1a9af95.png)
    
 5) To check the result, use command : curl 127.0.0.1 
 
