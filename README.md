@@ -5,7 +5,7 @@
    
 2) After enter the command, the project was copied into home user folder as shown in picture below:
 
-   ![pic2](https://user-images.githubusercontent.com/51110675/183119463-2fb3ae0e-a86a-4c85-b5b7-ba36d314bd3d.JPG)
+   ![pic2](https://user-images.githubusercontent.com/51110675/184584201-9c8de351-be05-4956-8c10-379163aeed7a.png)
    
 3) To run Docker compose command, type command : sudo docker compose up -d as shown in picture below:   
    
